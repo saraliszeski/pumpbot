@@ -8,9 +8,9 @@ ctrlPin = 16
 GPIO.setup(ctrlPin, GPIO.OUT)
 try:
 	while(True):
-		GPIO.output(ledPin, GPIO.HIGH)
+		GPIO.output(ctrlPin, GPIO.HIGH)
 		time.sleep(1.5)
-		GPIO.output(ledPin,GPIO.LOW)
+		GPIO.output(ctrlPin,GPIO.LOW)
 		time.sleep(0.5)
 		
 
