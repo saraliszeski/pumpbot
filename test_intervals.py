@@ -9,9 +9,9 @@ GPIO.setup(ctrlPin, GPIO.OUT)
 try:
 	while True:
 		GPIO.output(ctrlPin, GPIO.HIGH)
-		time.sleep(1.5)
-		GPIO.output(ctrlPin,GPIO.LOW)
-		time.sleep(0.5)
+# 		time.sleep(1.5)
+# 		GPIO.output(ctrlPin,GPIO.LOW)
+# 		time.sleep(0.5)
 # End program cleanly with keyboard
 except KeyboardInterrupt:
     	print("Quit")
