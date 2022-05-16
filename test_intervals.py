@@ -12,7 +12,6 @@ try:
 		time.sleep(1.5)
 		GPIO.output(ctrlPin,GPIO.LOW)
 		time.sleep(0.5)
-    		GPIO.cleanup()
 # End program cleanly with keyboard
 except KeyboardInterrupt:
     	print("Quit")
