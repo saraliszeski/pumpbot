@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 ctrlPin = 16
 GPIO.setup(ctrlPin, GPIO.OUT)
 try:
-	while true:
+	while True:
 		GPIO.output(ctrlPin, GPIO.HIGH)
 		time.sleep(1.5)
 		GPIO.output(ctrlPin,GPIO.LOW)
